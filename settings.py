@@ -112,3 +112,4 @@ SPLASH_URL = 'http://192.168.99.100:8050'
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 
 IMAGES_STORE = 'F:\99mm\\'
+IMAGES_EXPIRES = 30

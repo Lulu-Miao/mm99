@@ -9,7 +9,7 @@ from mm99.items import Mm99Item
 class A99mmSpider(scrapy.Spider):
     name = '99mm'
     allowed_domains = ['99mm.me']
-    start_urls = ['http://www.99mm.me/xinggan/']
+    start_urls = ['http://www.99mm.me/xinggan/', 'http://www.99mm.me/meitui/', 'http://www.99mm.me/qingchun/']
 
     def parse(self, response):
         for href in response.xpath('//*[@id="piclist"]/li/dl/dt/a/@href'):
